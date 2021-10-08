@@ -1,0 +1,20 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+    width: 500px;
+}
+
+.button-container .button {
+    position: absolute;
+    z-index: 1;
+}
+
+.button-container .button-lottie {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}

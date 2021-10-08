@@ -2,3 +2,12 @@
     width: 500px;
     height: 500px;
 }
+form {
+    height: 100%;
+    width: 100%;
+}
+.button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
