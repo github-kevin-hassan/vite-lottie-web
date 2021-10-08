@@ -1,11 +1,10 @@
-#lottie-container {
-    width: 500px;
-    height: 500px;
-}
-form {
-    height: 100%;
+.lottie-container {
+    display: flex;
+    flex-direction: row;
     width: 100%;
+    gap: 50px;
 }
+
 .button-group {
     display: flex;
     flex-direction: row;

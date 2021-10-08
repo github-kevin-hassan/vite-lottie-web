@@ -10,9 +10,7 @@ export default function CustomModal({onClose, open, children} : {onClose: () => 
     const lottieContainerRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
-        console.log('called')
         if(!lottieContainerRef.current) return
-        console.log('here')
         setLottieItem(lottie.loadAnimation({
             loop: false,
             container: lottieContainerRef.current,
